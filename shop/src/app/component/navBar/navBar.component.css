@@ -3,5 +3,9 @@
 }
 
 .logo {
-    color: orange;
+    color: #008CBA;
+}
+
+.navbar-inverse {
+    border-color: #008CBA;
 }

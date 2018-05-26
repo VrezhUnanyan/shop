@@ -1,16 +1,15 @@
 <!-- core/navbar.component.html -->
-<nav class="navbar navbar-inverse navbar-fixed-top bckColor mdl-navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top bckColor mdl-navigation" (click)="toggleState()">
     <div class="container-fluid">
         <div class="navbar-header">
                 <button type="button" 
-                        class="navbar-toggle collapsed"
-                        (click)="toggleState()">
+                        class="navbar-toggle collapsed">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="mdl-navigation__link navbar-brand logo" [routerLink]="['/']">ՆՎՎԱՆ</a>
+            <a class="mdl-navigation__link navbar-brand logo" [routerLink]="['/']" (click)="a()">ՆՎՎԱՆ</a>
         </div>
         <div class="collapse navbar-collapse" [ngClass]="{ 'in': isIn }">
             <ul class="nav navbar-nav">

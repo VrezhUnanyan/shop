@@ -9,13 +9,16 @@ import { HttpModule, JsonpModule } from '@angular/http';
 import { AppComponent } from './../component/app/app.component';
 import { NavbarComponent } from './../component/navBar/navBar.component';
 import { LoginComponent } from './../component/login/login.component';
+import { SigninComponent } from './../component/signin/signin.component';
+
 import { routing } from './../app.routes';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    LoginComponent
+    LoginComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
