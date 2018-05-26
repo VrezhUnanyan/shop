@@ -1,20 +1,21 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<app-navbar class="bckColor txtColor"></app-navbar>
-<div class="wrapper">
-  <div class="contaier">
-      <div class="row">
+  <div class="wrapper">
+    <div class="contaier">
+      <app-navbar class="bckColor txtColor"></app-navbar>
 
+      <div class="row">
         <div class="col-md-4">
+          <app-menu></app-menu>
         </div>
 
         <div class="col-md-8">
           <router-outlet></router-outlet>
         </div>
+      </div>
 
     </div>
+    <div class="push"></div>
   </div>
-  <div class="push"></div>
-</div>
-<footer class="footer bckColor txtColor text-align-center border" style="text-align:center">
-  <div>@2018 Copy right</div>
-</footer>
+  <footer class="footer bckColor txtColor border" style="text-align:center">
+    <div>@2018 Copy right</div>
+  </footer>

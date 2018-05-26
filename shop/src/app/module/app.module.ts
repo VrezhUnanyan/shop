@@ -10,7 +10,7 @@ import { AppComponent } from './../component/app/app.component';
 import { NavbarComponent } from './../component/navBar/navBar.component';
 import { LoginComponent } from './../component/login/login.component';
 import { SigninComponent } from './../component/signin/signin.component';
-import { Menu1Component } from './../component/menu/menu1.component';
+import { MenuComponent } from './../component/menu/menu.component';
 
 import { routing } from './../app.routes';
 
@@ -19,7 +19,8 @@ import { routing } from './../app.routes';
     AppComponent,
     NavbarComponent,
     LoginComponent,
-    SigninComponent
+    SigninComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
