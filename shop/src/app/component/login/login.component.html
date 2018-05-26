@@ -1,0 +1,15 @@
+<div class="login jumbotron center-block">
+    <h2 class="login-form">Մուտք</h2>
+    <form role="form" (submit)="login($event, username.value, password.value)">
+        <div class="form-group">
+            <label for="username">Մուտքանուն</label>
+            <input type="text" #username class="form-control" id="username" placeholder="Մուտքանուն">
+        </div>
+        <div class="form-group">
+            <label for="password">Գաղտնաբառ</label>
+            <input type="password" #password class="form-control" id="password" placeholder="Գաղտնաբառ">
+        </div>
+        <button type="submit">Մուտք</button>
+        <a [routerLink]="['/signin']">Գրանցվել</a>
+    </form>
+</div>

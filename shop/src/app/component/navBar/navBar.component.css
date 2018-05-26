@@ -9,3 +9,23 @@
 .navbar-inverse {
     border-color: #008CBA;
 }
+
+.navbar-inverse[_ngcontent-c1] .navbar-collapse[_ngcontent-c1], .navbar-inverse[_ngcontent-c1] .navbar-form[_ngcontent-c1] {
+    border-color: #008CBA;
+}
+
+.navbar-toggle{
+    background-color: #008CBA;
+}
+
+.navbar-toggle:hover {
+    background-color: #008CBA;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color:#008CBA;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #008CBA;
+}

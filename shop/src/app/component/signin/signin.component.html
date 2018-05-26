@@ -1,0 +1,22 @@
+<div class="login jumbotron center-block">
+    <h2 class="login-form">Գրանցվել</h2>
+    <form role="form" (submit)="signin($event, username.value, password.value, confirmPassword.value, phoneNumber.value)">
+        <div class="form-group">
+            <label for="username">Մուտքանուն</label>
+            <input type="text" #username class="form-control" id="username" placeholder="Մուտքանուն">
+        </div>
+        <div class="form-group">
+            <label for="password">Գաղտնաբառ</label>
+            <input type="password" #password class="form-control" id="password" placeholder="Գաղտնաբառ">
+        </div>
+        <div class="form-group">
+            <label for="password">Կրկնել Գաղտնաբառը</label>
+            <input type="password" #confirmPassword class="form-control" id="password" placeholder="Կրկնել Գաղտնաբառ">
+        </div>
+        <div class="form-group">
+            <label for="password">Հեռախոսահամար</label>
+            <input type="password" #phoneNumber class="form-control" id="password" placeholder="Հեռախոսահամար">
+        </div>
+        <button type="submit" >Գրանցվել</button>
+    </form>
+</div>
