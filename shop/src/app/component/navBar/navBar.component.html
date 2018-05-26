@@ -1,5 +1,5 @@
 <!-- core/navbar.component.html -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top bckColor mdl-navigation">
     <div class="container-fluid">
         <div class="navbar-header">
                 <button type="button" 
@@ -10,13 +10,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand">Project Manager</a>
+            <a class="mdl-navigation__link navbar-brand logo" [routerLink]="['/']">ՆՎՎԱՆ</a>
         </div>
-         <div class="collapse navbar-collapse"
-              [ngClass]="{ 'in': isIn }">
+        <div class="collapse navbar-collapse" [ngClass]="{ 'in': isIn }">
             <ul class="nav navbar-nav">
-                <li><a>Link 1</a></li>
-                <li><a>Link 2</a></li>
+                <li><a class="mdl-navigation__link txtColor" [routerLink]="['/']">Նորույթ</a></li>
+                <li><a class="mdl-navigation__link txtColor" [routerLink]="['/']">Ակցիա</a></li>
+            </ul>
+            <ul class="navBar-right nav navbar-nav">
+                <li><a class="mdl-navigation__link txtColor" [routerLink]="['/login']">մուտք</a></li>
             </ul>
         </div>
     </div>

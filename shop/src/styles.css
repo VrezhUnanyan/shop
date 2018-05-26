@@ -4,9 +4,9 @@ html, body {
   margin: 0;
 }
 .bckColor {
-    background-color: #101010;
+    background-color:white;
 }
 
 .txtColor {
-    color: grey;
+    color: black !important;
 }
