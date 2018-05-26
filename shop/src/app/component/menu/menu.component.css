@@ -7,8 +7,7 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-       outline:none;
-
+    outline:none;
 }
 
 .menu-item:hover {
