@@ -1,7 +1,10 @@
+<h1>{{this.contentName}}</h1>
 <div calss=container>
     <div class="row">
-        <div class="col-md-">
-                
+        <div *ngFor="let item of this.items">
+            <div class="col-md-4">
+                    <p>{{item}}</p>
+            </div>
         </div>
     </div>
 </div>

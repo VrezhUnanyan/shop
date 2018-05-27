@@ -11,6 +11,7 @@ import { NavbarComponent } from './../component/navBar/navBar.component';
 import { LoginComponent } from './../component/login/login.component';
 import { SigninComponent } from './../component/signin/signin.component';
 import { MenuComponent } from './../component/menu/menu.component';
+import { BodyComponent } from './../component/body/body.component';
 
 import { routing } from './../app.routes';
 
@@ -20,7 +21,8 @@ import { routing } from './../app.routes';
     NavbarComponent,
     LoginComponent,
     SigninComponent,
-    MenuComponent
+    MenuComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,

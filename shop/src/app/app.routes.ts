@@ -4,12 +4,15 @@ import { Routes, RouterModule } from '@angular/router';
 // components
 import { LoginComponent } from './component/login/login.component';
 import { SigninComponent } from './component/signin/signin.component';
-import { Menu1Component } from './component/menu/menu1.component';
+import { BodyComponent } from './component/body/body.component';
+
 
 // Route Configuration
 export const routes: Routes = [
     { path: 'login', component: LoginComponent },
-    { path: 'signin', component: SigninComponent }
+    { path: 'signin', component: SigninComponent },
+    { path: 'body/shop', component: BodyComponent },
+    { path: 'body/children', component: BodyComponent }
 ];
 
 // Deprecated provide
