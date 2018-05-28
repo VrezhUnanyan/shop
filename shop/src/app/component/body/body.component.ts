@@ -16,10 +16,10 @@ export class BodyComponent {
   private contentName: String;
   private items: String[] = [];
   showContent() {
-      if (this.router.url === '/body/shop') {
+      if (this.router.url === '/shop') {
         this.contentName = 'Shop';
         this.items = this.dataService.getShopData();
-      } else if (this.router.url === '/body/children') {
+      } else if (this.router.url === '/children') {
         this.contentName = 'For Man';
         this.items = this.dataService.getManData();
       }

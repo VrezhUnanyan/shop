@@ -11,8 +11,8 @@ import { BodyComponent } from './component/body/body.component';
 export const routes: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'signin', component: SigninComponent },
-    { path: 'body/shop', component: BodyComponent },
-    { path: 'body/children', component: BodyComponent }
+    { path: 'shop', component: BodyComponent },
+    { path: 'children', component: BodyComponent }
 ];
 
 // Deprecated provide
