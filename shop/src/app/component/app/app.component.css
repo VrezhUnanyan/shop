@@ -1,6 +1,6 @@
 
 .wrapper {
-  margin-top: 50px;
+  margin-top: 61px;
   min-height: 100%;
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
@@ -14,4 +14,17 @@
 
 .border {
     border-top: 1px solid #008CBA;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.rightMenuHide {
+  display: none;
+}
+
+.rightMenuShow {
+  display: block;
 }

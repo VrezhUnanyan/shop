@@ -4,11 +4,11 @@
       <app-navbar class="bckColorWhit txtColor"></app-navbar>
 
       <div class="row">
-        <div class="col-md-4">
+        <div [ngClass]="{'col-md-4 rightMenuShow': !isRightMenuShow(), 'rightMenuHide': isRightMenuShow() }">
           <app-menu></app-menu>
         </div>
  
-        <div class="col-md-8">
+        <div [ngClass]="{'col-md-8': !isRightMenuShow(), 'col-md-12': isRightMenuShow()}">
           <router-outlet></router-outlet>
         </div>
 

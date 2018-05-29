@@ -29,3 +29,9 @@
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #008CBA;
 }
+
+@media only screen and (max-width: 768px) {
+    .navBar-right {
+        float: left !important;
+    }
+}
